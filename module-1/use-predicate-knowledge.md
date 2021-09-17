@@ -58,3 +58,15 @@ Apply
 	0   1	0		1		1	0	1
 	1   0	0		1		0	1	1
 	1   1	1		0		0	0	0
+
+
+5. Reference 8-bit-adder.png
+
+
+6. "A" and "B" are XOR'd and then pushed to the final XOR gate for the fist adder. This is then XOR'd with any carry brought forward from a previous calculation. This determines the result for the first bit calculation. Furthermore, the result of the initial XOR with "A" and "B" is AND'd with the carry bit brought in from the previous calculation, and then sent to the final OR gate for the carry bit. In addition to this, an AND gate is branched off from right before the initial XOR gate for "A" and "B" and sent to the OR gate with the result of "C AND (A XOR B)". This determines what the carry bit that will be brought forward is.
+
+
+7. 
+
+
+8. L & H
